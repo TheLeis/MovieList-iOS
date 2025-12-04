@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6C4FE4BF2EE179DE00655B13 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6C4FE4BE2EE179DE00655B13 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6C4FE4A12EE179A300655B13 /* MovieList-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MovieList-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4FE4BF2EE179DE00655B13 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = "MovieList-iOS";
 			packageProductDependencies = (
+				6C4FE4BE2EE179DE00655B13 /* Kingfisher */,
 			);
 			productName = "MovieList-iOS";
 			productReference = 6C4FE4A12EE179A300655B13 /* MovieList-iOS.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 6C4FE4982EE179A300655B13;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6C4FE4BD2EE179DE00655B13 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6C4FE4A22EE179A300655B13 /* Products */;
 			projectDirPath = "";
@@ -345,6 +354,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6C4FE4BD2EE179DE00655B13 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6C4FE4BE2EE179DE00655B13 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C4FE4BD2EE179DE00655B13 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6C4FE4992EE179A300655B13 /* Project object */;
 }
